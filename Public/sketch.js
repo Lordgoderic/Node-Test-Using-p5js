@@ -5,7 +5,7 @@ function setup() {
   background(51);
    
    // start a socket connection to the server
-  socket = io.connect('http://localhost:3000');
+ // socket = io.connect('http://localhost:3000');
 
   // Make a named event call 'mouse' and write an
   // callback function
