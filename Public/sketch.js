@@ -9,7 +9,7 @@ function setup() {
 
   // Make a named event call 'mouse' and write an
   // callback function
-  socket.on('mouse', newDrawing);
+  //socket.on('mouse', newDrawing);
 }
 
 function draw() {
