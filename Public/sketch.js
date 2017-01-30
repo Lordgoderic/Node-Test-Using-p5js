@@ -1,4 +1,4 @@
-var socket;
+//var socket;
 
 function setup() {
   createCanvas(640, 480);
@@ -35,5 +35,5 @@ function sendmouse(xpos, ypos) {
 		x: xpos,
 		y: ypos
 	};
-	socket.emit('mouse', data);
+//	socket.emit('mouse', data);
 }
